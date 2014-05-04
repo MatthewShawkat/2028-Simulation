@@ -1,0 +1,57 @@
+.wrapper {
+    position: relative;
+}
+.back {
+    position: absolute;
+}
+.back-square {
+    width: 50px;
+    height: 50px;
+    background-color: #bbada0;
+    display: inline-block;
+}
+.main {
+    position: relative;
+    z-index: 99;
+}
+.square {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    -webkit-transition: left 0.1s linear;
+    /* For Safari 3.1 to 6.0 */
+    transition: left 0.1s linear;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+#b1 {
+    left: 0;
+    z-index: 150;
+    color: #776E65;
+    background-color: #ede0c8;
+}
+#b2 {
+    left: 54px;
+    z-index: 140;
+    color: #776E65;
+    background-color: #eee4da;
+}
+#b3 {
+    left: 108px;
+    z-index: 130;
+    background-color: #eee4da;
+    color: #776E65;
+}
+#b4 {
+    left: 162px;
+    z-index: 120;
+}
+
+.add {
+    background-color: #ede0c8 !important;
+}
+
+.hidden {
+    display: none;
+}
